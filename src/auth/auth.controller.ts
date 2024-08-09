@@ -17,7 +17,7 @@ export class AuthController {
   }
 
   @MessagePattern('auth.verify.user')
-  verifyUser(@Payload() pepe){
+  verifyToken(){
     return 'verify User'
   }
 
